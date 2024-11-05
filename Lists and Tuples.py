@@ -20,7 +20,7 @@ print(list1[1:2])
 numbers= [2,4,6,8,10]
 print("First element:", numbers[0])
 print("Last element:", numbers[-1])
-animals = ["cat", "dog", "bird"]
+animals = ["cat", "dog", "bird"].0.0
 animals[1] = "hamster"
 print(animals)
 colors = []
