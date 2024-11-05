@@ -20,7 +20,7 @@ print(list1[1:2])
 numbers= [2,4,6,8,10]
 print("First element:", numbers[0])
 print("Last element:", numbers[-1])
-animals = ["cat", "dog", "bird"].0.0
+animals = ["cat", "dog", "bird"]
 animals[1] = "hamster"
 print(animals)
 colors = []
@@ -52,12 +52,18 @@ list1 = [4, 23, 9, 29, 43]
 list2 = [7, 54, 26, 12, 61]
 list1.extend(list2)
 print(list1)
-
-
-
-
-
-
-
-
-            
+tuple = (4, 14, 20)
+print(tuple)
+fruits = ('apple', 'banana', 'cherry')
+print(fruits)
+print(fruits[1])
+print(fruits[-1])
+colors = ('red', 'green', 'blue')
+color1, color2, color3 = colors
+print(color1)
+print(color2)
+print(color3)
+numbers1 = (1, 2, 3)
+numbers2 = (4, 5, 6)
+numbers_combined = numbers1 + numbers2
+print(numbers_combined)
