@@ -38,3 +38,8 @@ student["GPA"] = 3.8
 student["age"] = 21
 student.pop("major")
 print(student)
+student = {
+    "name": "Eve",
+    "age": 22,
+    "major": "Biology"
+}
