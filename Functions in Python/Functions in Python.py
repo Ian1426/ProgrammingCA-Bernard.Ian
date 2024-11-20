@@ -26,13 +26,24 @@ def calculate_factorial(n):
 def reverse_string(text):
     return text[::-1]
 print(reverse_string("Python"))
-#Numer in prime
-def is_prime(number):
-    if number < 2:
-        return False
-for s in range(2, int(number ** 0.5) +1):
-    if number % s == 0:
-        return False
-    return True
-print(is_prime(7))
-print(is_prime(10))
+#Passing Arguments to Functions
+def main ():
+    value = 5
+    show_double(value)
+
+    def show_double(number):
+        result = number * 2
+        print(result)
+#Counting the numbers to volwers in a string
+def count_vowels(text):
+    vowels = "aeiouAEIOU"
+    count = 0 
+    for char in text:
+        if char in vowels:
+            count += 1
+    return count
+print(count_vowels("I love python programming."))
+#Find the Maximum in a List
+def find_max_in_list(numbers):
+    return max(numbers)
+print(find_max_in_list([1, 4, 12, 16, 22]))
